@@ -17,6 +17,8 @@ class MainActivity : AppCompatActivity() {
 
         val model = UserModel()
         model.userName = "sami"
+        model.userImage2 = "https://i.redd.it/g5acbfi5hkm01.jpg"
         mainDataBinding.userModel = model
+        mainDataBinding.testUrl = "https://i.redd.it/g5acbfi5hkm01.jpg";
     }
 }
